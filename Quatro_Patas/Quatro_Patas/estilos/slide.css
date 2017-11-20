@@ -1,0 +1,227 @@
+
+/* Panel Tab/button */
+#login1
+{
+    position:relative;
+    width:980px;
+    height:100px;
+    background-color:transparent;
+    margin-left:50%;
+    left:-490px;
+    top:0px;
+    }
+.tab {
+	height: 42px;
+	position: relative;
+    z-index: 999;
+    top:-10px;
+    right:-10px;
+
+}
+
+.tab ul.login {
+	display: block;
+	position: relative;
+  	float: right;
+  	clear: right;
+  	height: 42px;
+	width: auto;
+	line-height: 42px;
+	margin: 0px;
+	text-align: center;
+	z-index:99;
+	
+ 
+}
+
+.tab ul.login li.left {
+  	height: 42px;
+	width: 30px;
+	padding: 0px;
+	margin: 0px;
+  	display: block;
+	float: left;
+	z-index:7;
+}
+
+.tab ul.login li.right {
+  	height: 42px;
+	width: 30px;
+	padding: 0px;
+	margin: 0px;
+  	display: block;
+	float: left;
+	z-index:6;
+}
+
+.tab ul.login li {
+ 	text-align: left;
+  	padding: 0px 6px;
+	display: block;
+	float: left;
+	height: 42px;
+	z-index:5;
+
+}
+
+.tab a.open, .tab a.close {
+	height: 30px;
+	line-height: 20px !important;
+	cursor: pointer;
+	display: block;
+	width: 135px;
+	position: relative;
+    background-color:#232b2b;
+    font-family:Segoe UI Symbol;
+    font-size:15px;
+    text-decoration:none;
+    color:#CCC;
+    text-align:center;	
+    z-index:100;
+    /*border-top-left-radius: 25px;
+    border-top-right-radius: 60px;*/
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    top:-3px;
+
+}
+
+#toppanel {
+    position: relative;   /*Panel will overlap  content */
+    /*position: relative;*/   /*Panel will "push" the content down */
+    top: 0px;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+    width:101%;
+    
+}
+
+#panel {
+	height: 280px;
+	background-color: #232B2B;
+	/*overflow: hidden;*/
+	position: relative;
+	z-index: 3;
+	display: none;
+	
+}
+
+
+#panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+
+#panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+	
+}
+
+#panel .content .left {
+	width: 280px;
+	float: left;
+	padding: 0 15px;
+	border-left: 1px solid #696969;
+
+}
+
+#panel .content .right {
+	border-right: 1px solid #696969;
+	width: 600px;
+	float: left;
+	
+}
+
+#panel .content form {
+	margin: 0 0 10px 0;
+}
+
+#panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+/* BUTTONS */
+/* Login and Register buttons */
+#panel .content input.bt_login,
+#panel .content input.bt_register {
+    display: block;
+    float: left;
+    clear: left;
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin: 10px 0px;
+    background-color: #ff7f00;
+    color: #232b2b;
+    font-size: 16px;
+    font-family: Segoe UI Symbol;
+    z-index: 0;
+    float: left;
+    text-decoration: none;
+}
+
+#panel .lost-pwd {
+	display: block;
+	float:left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: 0.95em;
+}
+
+.grey
+{
+    color: #cccccc;
+    font-family: Segoe UI Symbol;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.gray
+{
+    
+    font-family: Segoe UI Symbol;
+    text-align: center;
+    border-top-left-radius: 5px;
+    /*border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius: 5px; */
+    
+}
+
+.field
+{
+    color:#232B2B;
+    font-style:normal;
+    font-family:Segoe UI Symbol;
+    font-size:14px;
+    background-color:#ccc;
+    border: none;
+    margin-left:20px;
+    padding-left:3px;
+    }
+    
+ .botaos{
+     font-size:16px;
+     font-family:Segoe UI Symbol;
+     font-style:normal;
+     background-color:#ff7f00;
+     z-index:2;
+     border:solid 0px #ff7f00;
+     height:30px;
+     width:80px;
+}
+
+
+#mudar
+{
+    margin-left:15px;}

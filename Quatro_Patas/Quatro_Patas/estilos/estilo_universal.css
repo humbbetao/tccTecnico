@@ -1,0 +1,711 @@
+﻿*
+    {
+    padding: 0px 0px 0px 0px;
+    margin: 1px 4px 0px 0px;
+    font-family: "Segoe UI Symbol";
+}
+body 
+    {
+	    margin: 0px auto;
+        background-color:transparent;
+        text-align: center;
+        font-family:Segoe UI Symbol;
+}
+    
+#pagina
+    {
+        height:350px;
+        width:100%;
+        margin-top:0px;
+        left:0px;
+        background-color:transparent;
+        top:0px;
+   }
+    
+   
+#conteudo
+    {
+        height:auto;
+	    width:100%;
+	    position:relative; 
+	    z-index:0;
+	    margin:0px;
+	    top:-350px;
+        margin-left:auto;
+	    margin-right:auto;
+    }
+    
+ #centro
+ {      
+        width:980px;
+        left:50%;   
+        margin-left:-305px;  /*metade da largura fictícia */
+        position:relative;
+        background-color:transparent;
+        
+     }
+
+    
+ #jquery
+	{
+	    height:350px;
+	    width:101%;
+	    background-color:#ff7f00;
+	    position:relative;
+	    z-index:0;
+	    top:-5px;
+	   
+	}
+
+
+        
+#lnksenha
+   {
+        color:#CCC;
+        margin-left:30px;
+   }
+   
+#menu
+    {
+        position:relative;
+        background-color:transparent;
+        z-index:0;
+        width:101%;
+        height:270px;
+        top:-5px;
+        border-top: 5px solid #232b2b;
+        border-bottom: 1px solid #ff7f00;
+
+    }
+    
+#menu_central
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        margin-left:50%;
+        left:-490px;
+        
+ 
+    }
+#menu1
+    {
+        width:100%;
+        height:40px;
+        position:relative;
+        background-color:#232b2b;
+        border-top:1px solid #ff7f00;
+        top:0px;
+        
+        
+    }
+        
+ul
+    {
+        position:relative;
+        list-style-type:none;
+        padding:0px;
+        margin:0px;
+        width:100%;
+        top:8px;
+        left:0px;
+        color:#ff7f00;
+        
+    }
+        
+.esquerda
+    {
+        position:relative; 
+        padding-left:25px;
+        padding-right:25px;
+        margin:0px;
+        float:left;
+        border-right:1px solid #232b2b;
+        font-family:Segoe UI Symbol;
+        font-size:16px;
+        font-style:normal;
+        color:#ff7f00;
+    }
+
+#primeiraesquerda
+    {
+        position:relative;
+        margin:0px;
+        padding-right:25px;
+        float:left;
+        border-right:1px solid #232b2b;
+        font-family:Segoe UI Symbol;
+        font-size:16px;
+        font-style:normal;
+        color:#ff7f00;
+        
+    }
+#ultimoesquerda
+    {
+        position:relative;
+        margin:0px;
+        padding-left:25px;
+        float:left;
+        font-family:Segoe UI Symbol;
+        font-size:16px;
+        font-style:normal;
+        color:#ff7f00;
+        
+    }
+    
+#pesquisar
+    {
+        position:relative;
+        width:400px;
+        height:200px;
+        color: #232B2B;
+        font-size: 30px;
+        margin-left:420px;
+        font:solid;
+        padding:0px;
+        top:120px;
+        text-align:right;
+        padding-left:90px;
+    }
+    
+#procurar
+    {
+        position:relative;
+        width:300px;
+        height:30px;
+        color: #232b2b;
+        text-align:center;
+        border:0px;
+        font-size:14px;
+        font-family:Segoe UI Symbol;
+        left:560px;
+    }
+ 
+ #pesquisa
+    {
+        position:relative;
+        width:30px;
+        z-index:1;
+        color:#fff;
+        font-size: 14px;
+        left:580px;
+        border:0px;
+        padding-left:5px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px; 
+        background-color:transparent;
+    }
+    
+#procura
+    {
+        position:relative;
+        width:100px;
+        height:24px;
+        z-index:2;
+        background-color:#fff;
+        color: #fff;
+        text-align:center;
+        padding-top:3px;
+        border:0px;
+        font-size:14px;
+        font-family:Segoe UI Symbol;
+        left:830px;
+        top:-27px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        /*border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 15px;*/ 
+    }
+#texto
+    {
+        position:relative;
+        margin-top:10px;
+        width:980px;
+        height:auto;
+        border-bottom:200px;
+        z-index:50;
+        left: -490px;
+        margin-left: 50%;
+        padding-top:10px;
+    }
+  
+
+#nome_da_pagina
+    {
+        font-family:Segoe UI Symbol;
+        font-size:20px;
+        border-top:1px solid #ff7f00;
+        color:#232b2b;
+        width:120px;
+        height:auto;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:3px;
+        text-align:center;
+    }
+ #rodape
+    {
+        height:70px;
+        width:100%;
+        margin-bottom:0px;
+        bottom:0px;
+        position:fixed;
+        border-top:70px;
+        
+
+        
+    }
+#rodape_div1
+    {
+        height:40px;
+        position:relative;
+        background-color:#000;
+        opacity:0.85;
+        filter:alpha(opacity=85); /* For IE8 and earlier */
+        -moz-opacity:.85;
+        -webkit-opacity:0.85;
+        text-align:center;
+        color:#ccc;
+        bottom:-1px;
+    }
+#rodape_div1_div
+    {
+        margin-left: auto;
+        margin-right:auto;
+        font-size:20px; 
+        float:left;
+    }
+        
+#rodape_div2_div
+    {
+        margin-left: auto;
+        margin-right:auto;
+        font-size:15px;
+         
+    }
+    
+     
+ 
+ 
+#rodape_div2
+    {
+        height:30px;
+        margin-left: auto;
+        margin-right:auto;
+        position:relative;
+        font-size:10px;
+        background-color:#000;
+        opacity:0.9;
+        filter:alpha(opacity=90); /* For IE8 and earlier */
+        -moz-opacity:.9;
+        -webkit-opacity:0.9;
+        color:#232b2b;
+    }
+    
+      
+       
+    .center_1
+    {
+        position:relative; 
+        padding-left:10px;
+        padding-right:10px;
+        margin:0px;
+        float:left;
+        border-right:1px solid #ccc;
+        font-family:Segoe UI Symbol;
+        text-align:center;
+        color:#ccc;
+    }
+
+.primeiro
+    {
+        position:relative;
+        margin:0px;
+        padding-right:10px;
+        float:left;
+        border-right:1px solid #ccc;
+        font-family:Segoe UI Symbol;
+        text-align:center;
+        color:#ccc;
+    }
+.ultimo_1
+    {
+        position:relative;
+        margin:0px;
+        padding-left:10px;
+        float:left;
+        font-family:Segoe UI Symbol;
+        text-align:center;
+        color:#ccc;
+    }
+
+       
+#rodape_central_1
+    {
+        width:980px;
+        margin-left:50%;
+        left:-490px;
+        position:fixed;
+  
+    }
+#rodape_central_2
+    {
+        width:980px;
+        margin-left:50%;
+        left:-490px;
+        position:fixed;
+        bottom:10px;
+  
+    }
+    
+
+.mapa_site
+    {
+        float: left;
+        position:relative;
+    }
+    
+ .conteudo_da_pagina
+    {
+        position:relative;
+        width:980px;
+        height:200px;
+        margin-top:20px;
+    }
+
+#rodape_central #mapa_site li
+    {
+        float:left;
+        padding-left:10px;
+    }
+#logo
+    {
+        position:relative;
+        width:450px;
+        height:180px;
+        top:5px;
+        float:left;
+        position:relative;
+        float:left;
+    }
+    
+ .conteudo_pagina
+    {
+        position:relative;
+        background-color:#ccc;
+        width:200px;
+        height:200px;
+        top:0px;
+        left:0px;
+        float:left;
+        margin-right:20px; 
+        margin-left:25px;  
+        margin-bottom:10px; 
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;    
+    } 
+     
+.conteudo_divido
+    {
+        position:relative;
+        background-color:#0080FF;
+        color:#fff;
+        font-size:14px;
+        width:195px;
+        height:25px;
+        padding-top:5px;
+        padding-left:5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;    
+    }
+ 
+ .botao_link_vitrine
+    {
+        position:relative;
+        width:20px;
+        height:20px;
+        margin-right:0px;
+        left:170px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        padding-top:0px; 
+        background-color:#232b2b;
+        color:#ff7f00
+     
+     }
+a:link
+    {
+        text-decoration: none;
+        color: #ff7f00;
+        }
+
+ a:visited 
+    {
+        text-decoration: none;
+         color:#ff7f00;
+    }
+
+a:hover
+    {
+        text-decoration: none;
+        color:#ccc;
+    }
+
+a:active
+    {
+        text-decoration: none;
+        color:#ff7f00;
+    }
+    
+ 
+
+.adicionar
+{
+    width:980px;
+    height:100px;
+    position:relative;
+    height:150px;
+       
+}
+.adicionar_item
+{
+    width:120px;
+    float:left;
+    height:100px;
+    margin-right:20px;
+}
+
+
+
+#text
+    {
+        position:relative;
+        border-bottom: 200px solid #fff;
+    }
+    
+    
+ .img_uti
+ {
+     position:relative;
+     width:90px;
+     height:80px;
+     left:12px;
+ }
+ 
+ .text_descri
+    {
+        text-align:center;
+        position:relative;
+        font: solid 15px;
+        color:#232b2b;
+        width:120px;
+        height:45px;
+        font-weight:bold;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        
+    }
+    
+.class_blog_titulo
+
+    {
+        position:relative;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        text-align:center;
+    top: 0px;
+    left: -5px;
+}
+    
+.class_noticia_blog
+    {
+        position:relative;
+        text-align:justify;   
+    }
+    
+.class_rodape_blog
+    {
+    
+        position:relative;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align:right;
+
+    }
+    
+    
+ 
+ #barra_superior
+    {
+        position:fixed;
+        background-color:#0080FF;
+        width:100%;
+        height:25px;
+        top:-2px;
+        left:0px;
+        z-index:50;
+    }
+    
+    
+    
+#cnetro_barra
+    {
+        width:980px;
+        height:25px;
+        top:0px;
+        left:50%;
+        margin-left:-490px;
+        position:relative;
+        padding:0 0 0 0;
+        margin-top:0px;
+        top:0px;
+   
+        
+    }
+    
+ #left_cnetro
+    {
+         padding-left:50px;
+         width:200px;
+         height:25px;  
+         float:left;  
+         top:0px;
+
+     }
+     
+     
+ .cnetro_cnetro
+    {
+         padding-left:5px;
+         width:90px;
+         height:5px;
+         float:left;  
+         top:0px;
+
+     }
+ 
+ .right_cnetro
+     {  padding-left:5px;
+        width:90px;
+        height:200px;
+        float:left; 
+        top:0px;
+
+     }
+     
+     
+     
+  #cnetro_barra ul
+    {
+      margin-top:0px;
+      top:0px;
+      
+   }
+      
+
+ 
+#rodape_central_1 ul
+ 
+    { 
+        left:180px;    
+    }
+ 
+ #rodape_central_2 ul
+ 
+    { 
+        left:220px;    
+    }
+    
+     
+#rodape_central_4 ul
+ 
+    { 
+        left:270px;    
+    }
+ 
+ #rodape_central_3 ul
+ 
+    { 
+        left:230px;    
+    }
+   #rodape_central_4
+    {
+        width:980px;
+        margin-left:50%;
+        left:-490px;
+        position:fixed;
+  
+    }
+#rodape_central_3
+    {
+        width:980px;
+        margin-left:50%;
+        left:-490px;
+        position:fixed;
+  
+    }
+    
+   
+.texto_blog_inserir1
+    {
+        width:100px;
+        float:left;
+        color:#232b2b;
+        padding-bottom:5px;
+        
+    }
+.texto_blog_inserir2
+    {
+        width:800px;
+        float:left;
+         padding-bottom:5px;
+        
+    }
+.formato
+{
+    float:left;
+    }
+    
+   
+#botaosushauhs
+
+{
+    width:960px;
+    float:left;
+    padding-top:15px;
+    
+    }
+    
+  .biorda
+  {
+      border: 1px solid #ff7f00;
+      font-size:20px;
+      color:#232b2b;
+      width:300px;
+      
+      
+      }
+      
+   .bordia
+   {
+       color:#232b2b;
+       font-size:20px;
+       font-weight:bold;
+       
+     }
+     
+#texto_empresa
+ {
+    text-align:justify;
+     
+     }

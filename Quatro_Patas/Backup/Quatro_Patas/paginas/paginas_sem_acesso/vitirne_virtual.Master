@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="vitirne_virtual.master.cs" Inherits="Quatro_Patas.paginas.paginas_aspx.vitirne_virtual" %>
+
+<!DOCTYPE html>
+<html>
+    <head id="Head1" runat="server">
+        <title>Quatro Patas</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <link type="text/css" rel="stylesheet" href="../../estilos/estilo_universal.css"/>
+      	<link rel="stylesheet" href="../../estilos/slide.css" type="text/css" media="screen" />
+        <link rel="shortcut icon" href="../../images/icone.ico"> 
+	    <script src="../../js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	    <script src="../../js/slide.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="../../estilos/demo.css" />
+        <link rel="stylesheet" type="text/css" href="../../estilos/style.css" />
+		<script type="text/javascript" src="../../js2/jquery.min.js"></script>
+		<script type="text/javascript" src="../../js2/jmpress.min.js"></script>
+		<script type="text/javascript" src="../../js2/jquery.jmslideshow.js"></script>
+		<script type="text/javascript" src="../../js2/modernizr.custom.48780.js"></script>
+        <noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+       <script type="text/javascript">
+           $(function () {
+               $('#jms-slideshow').jmslideshow();
+           });
+		</script>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <div id="pagina" >
+                    <!-- Panel -->
+                        <div id="toppanel">
+	                        <div id="panel">
+		                        <div class="content clearfix">
+			                        <div class="left">
+                                        <asp:Label ID="lbliniciando" runat="server" Text="" ForeColor="#ff7f00" Font-Bold="False" Font-Size="25pt" >Bem-vindo a<br /> Quatro Patas</asp:Label>
+                                        <br />
+                                        <br />
+                                        <asp:Label ID="lbllojavirtual" runat="server" Text="Nossa Loja Virtual" ForeColor="#666666" Font-Size="22px"></asp:Label>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <asp:Label ID="Label1" runat="server" Text="" ForeColor="#CCCCCC" Font-Size="17px">Aqui está nossa loja online que disponibiliza tudo o que há de melhor em produtos pet</asp:Label>
+				                    </div>
+			                         <div class="left right">			
+				                        <asp:Login  InstructionTextStyle-HorizontalAlign="Left" ID="login" 
+                                             runat="server" FailureText="Falha ao logar" 
+                                            LoginButtonText="Login" PasswordLabelText="Senha" 
+                                            PasswordRequiredErrorMessage="!" RememberMeText="Lembrar-me" 
+                                            TitleText="Login" UserNameLabelText="Usuário" UserNameRequiredErrorMessage="!" 
+                                            Font-Size="15px" ForeColor="#FFFFFF" BackColor="#232B2B" 
+                                            BorderWidth="0px" Height="250px" Width="400px" 
+                                             DestinationPageUrl="~/paginas/acesso_funcionario/index_logado.aspx" DisplayRememberMe="False" 
+                                            BorderPadding="0" FailureAction="Refresh" RememberMeSet="True" 
+                                             onauthenticate="login_Authenticate" TitleTextStyle-BackColor="#0080FF">
+                                           <CheckBoxStyle HorizontalAlign="Left" VerticalAlign="Middle" Width="30px" />
+                                           <HyperLinkStyle Font-Bold="True" ForeColor="#FFFFFF" />
+                                           <InstructionTextStyle cssClass="mudar" HorizontalAlign="Left" 
+                                               VerticalAlign="Middle" />
+                                           <LabelStyle HorizontalAlign="left" VerticalAlign="Middle" Width="50px" />
+                                           <FailureTextStyle BackColor="#ff7f00" ForeColor="#232B2B" 
+                                               HorizontalAlign="Left" VerticalAlign="Middle" />
+                                           <LoginButtonStyle BackColor="#ff870f" Height="30px" Width="100px" BorderWidth="0px" ForeColor="#232b2b" Font-Size="20px" />
+                                           <TextBoxStyle  Width="300px" BackColor="#cccccc" BorderColor="#232B2B" BorderWidth="1px" 
+                                               Font-Size="15px" Height="25px" />
+                                           <TitleTextStyle Font-Size="25px" ForeColor="#cccccc" HorizontalAlign="Left" 
+                                               VerticalAlign="Top" BackColor="#232b2b" />
+                                           <ValidatorTextStyle ForeColor="White" />
+                                        </asp:Login>
+			                        </div>
+		                        </div>
+                            </div> <!-- /login -->	
+	                    <!-- The tab on top -->	
+	                        <div id="login1">
+	                        <div class="tab">
+		                        <ul class="login">
+			                        <li id="toggle">
+                                         <a id="open" class="open" href="#" >Logar</a>
+				                         <a id="close" style="display: none;" class="close" href="#">Logar</a>			
+			                        </li>
+		                       </ul> 
+	                       </div> <!-- / top -->
+                           </div>
+	                   </div> <!--panel -->
+                 </div>
+                <div id="conteudo">
+                    <div id="menu">
+                            <div id="menu_central">
+                                <div id="logo">
+                                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/logobranco3.png" PostBackUrl="~/paginas/paginas_sem_acesso/index_2.aspx" />
+                                </div>
+                                <div id="caixa_pesquisar">
+                                     <div id="pesquisar">
+                                         <asp:Image ID="Image2" runat="server"  ImageUrl="~/images/logo7678669.png"/>
+                                        
+                                     </div>
+                                     <div id="procurar">
+                                         <asp:Label ID="Label3" runat="server" Text="Tel:(14)36417840 Barra Bonita-SP"></asp:Label>
+                                    </div>
+                                </div>
+                            </div>  
+                        <div id="menu1">
+                        <div id="centro">
+                            <ul>
+                                <li id="primeiraesquerda"><asp:HyperLink ID="lnk1" runat="server" Text="Página Inicial" NavigateUrl="~/paginas/paginas_sem_acesso/index_2.aspx"></asp:HyperLink></li>
+                                <li class="esquerda"><asp:HyperLink ID="lnk2" runat="server" Text="Blog" NavigateUrl="~/paginas/paginas_sem_acesso/blog.aspx"></asp:HyperLink></li>
+                                <li class="esquerda"><asp:HyperLink ID="lnk4" runat="server" Text="Vitrine Virtual" NavigateUrl="~/paginas/paginas_sem_acesso/vitrine_virtual.aspx"></asp:HyperLink></li>
+                                <li class="esquerda"><asp:HyperLink ID="lnk5" runat="server" Text="Empresa" NavigateUrl="~/paginas/paginas_sem_acesso/empresa.aspx"></asp:HyperLink></li>
+                                <li id="ultimoesquerda"><asp:HyperLink ID="lnk6" runat="server" Text="Fale Conosco" NavigateUrl="~/paginas/paginas_sem_acesso/faleconosco.aspx"></asp:HyperLink></li>
+                               </ul>
+                            </div>
+                        </div>
+                     </div>
+                     
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                                     </div>
+
+            <div id="rodape">
+                                     <div id="rodape_div1">
+                         <div id="rodape_div1_div">
+                             <div class="mapa_site">
+                             <div id="rodape_central_1">
+                             <ul>    
+                                        <li class="primeiro">
+                                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/index_2.aspx">Página Inicial</asp:HyperLink>
+                                        </li>
+                                        <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/blog.aspx">Blog</asp:HyperLink>
+                                        </li>
+                                        <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/vitrine_virtual.aspx">Vitrine Virtual</asp:HyperLink>
+                                        </li>
+                                       <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/empresa.aspx">Empresa</asp:HyperLink>
+                                        </li>
+                                        <li  class="ultimo_1">
+                                           <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/faleconosco.aspx">Fale Conosco</asp:HyperLink>
+                                        </li>
+                                        
+
+                                    </ul>                            
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                 <div id="rodape_div2">
+                 <div id="rodape_div2_div">
+                 <div class="mapa_site">
+                 <div id="rodape_central_2">
+                        <ul>    
+                                                                   <li class="primeiro">
+                                            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/index_2.aspx">Página Inicial</asp:HyperLink>
+                                        </li>
+                                        <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/blog.aspx">Blog</asp:HyperLink>
+                                        </li>
+                                        <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/vitrine_virtual.aspx">Vitrine Virtual</asp:HyperLink>
+                                        </li>
+                                       <li  class="center_1">
+                                            <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/empresa.aspx">Empresa</asp:HyperLink>
+                                        </li>
+                                        <li  class="ultimo_1">
+                                           <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/paginas/paginas_sem_acesso/faleconosco.aspx">Fale Conosco</asp:HyperLink>
+                                        </li>
+                        </ul>                            
+                    </div>
+                    </div>
+                 </div>
+                 </div>
+
+                 </div>
+                  
+        </form>
+    </body>
+</html>

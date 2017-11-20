@@ -1,0 +1,221 @@
+﻿#blog
+    {
+        position:relative;
+        background-color:#fff;
+        width:980px;
+        height:auto;
+        top:10px;
+    }
+ #topo_blog
+    {
+         position:relative;
+         width:980px;
+         height:67px;
+         top:10px;
+         left:0px;
+         background-color:#232b2b;
+         border-top-left-radius: 25px;
+         color:#ff870f;
+         /* border-top-right-radius: 25px;
+         border-bottom-right-radius: 25px;
+         border-bottom-left-radius: 15px;*/ 
+    }
+ 
+
+ #titulo_noticia
+    {
+        position:relative;
+        width:800px;
+        height:50px;
+        float:left;
+        text-align:center;
+        color:#fff; 
+        top:10px;           
+}
+  
+ #post_dono
+    {
+        position:relative;
+        top:8px;
+        width:80px;
+        height:50px;
+        float:left;
+        text-align:right;
+        padding-right:10px;
+        color: #ff7f00;
+    }
+
+ #corpo_blog
+    {
+        position:relative;
+        width:978px;
+        height:auto;
+        top:0px;
+        left:0px;
+        background-color:#fff;
+        border: 1px solid #232b2b; 
+    }
+    
+ #centralizar_blog
+    {  
+        position:relative;
+        width:970px;
+        padding-left:10px;
+        padding-top:10px;
+        color:#232b2b;
+         
+    }
+ 
+ #rodape_blog
+    {
+        position:relative;
+        height:45px;
+        text-align: center;
+        width:80px;
+        z-index:50px;
+        margin-left:890px;
+        bottom:auto;
+        margin-bottom:auto;
+        background-color:#ff7f00;
+        
+}
+#centro_lizar
+    {
+        position:relative;
+        width:9px;
+        margin-left:-475px;  /*metade da largura fictícia */
+        left:50%;
+        text-align: center;
+        height:auto;
+        top:50px;
+}
+    
+ #coluna1
+    {
+     position:relative;
+     width:100px;
+     height:50px;
+     left:10px;
+     top:10px;
+    }
+     #coluna2
+    {
+     position:relative;
+     width:100px;
+     height:50px;
+     left:10px;
+    top:10px;
+    }
+     #coluna3
+    {
+     position:relative;
+     width:100px;
+     height:250px;
+     left:10px;
+     top:10px;
+    }
+ #coluna4
+    {
+     position:relative;
+     width:100px;
+     height:50px;
+     left:10px;
+     top:10px;
+    }
+ 
+ .lado1
+    {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    float: left;
+    left: 10px;
+    top: 35px;
+    text-align:left;
+}
+  .lado2
+  {
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    left: 75px;
+    top: -10px;
+    
+}
+
+
+ div.date{width:60; height:60;  float:left; padding-left:20px;}
+#mes{float:left;font-size:15px;color:#ff7f00;position:relative;top:20px;left:20px;}
+#dia{float:left;font-size:25px;color:#ff7f00;position:relative;top:17px;left:25px;clear:left; font-weight:bold; }
+
+#post_dono{width:70px;height:70px; left:35px; background:url(../images/bt_note.png); background-repeat:no-repeat;float:left; top:-3px;}
+#autor{float:left;font-size:10px;color:#666;position:relative;top:8px;left:25px; text-align:left;}
+#nome{float:left;font-size:10px;color:#232b2b;position:relative;top:17px; left:25px;clear:left;}
+
+.botaoSalvar    
+    {
+        position:relative;
+        background-color:#ff7f00;
+        border-top-left-radius: 25px;
+        width:150px;
+        height:35px;
+        float:left;
+        padding-left:5px;
+        padding-top:5px;
+    }
+
+
+.texto_blog
+{
+    height:960px;
+    width:auto;
+    font-family: "Humanst521 Lt BT";
+    font-size:20px;
+    }
+.texto_bloh
+{
+    height:960px;
+    width:auto;
+    font-family: "Humanst521 Lt BT";
+    }
+    
+.botoa-bl
+{
+    width:200px;
+    height:80px;
+    font-size:20px;
+    color:#232b2b;
+    background-color:#ff7f00;
+    font-family:"Humanst521 Lt BT";
+}
+.botoa-bl:link
+{text-decoration: none;
+color: #232b2b}
+
+.botoa-bl:visited 
+    {
+        text-decoration: none;
+         color:#ff7f00;
+    }
+
+.botoa-bl:hover
+    {
+        text-decoration: none;
+        color:#ffffff;
+    }
+
+.botoa-bl:active
+    {
+        text-decoration: none;
+        color:#ff7f00;
+    }
+ 
+
+
+
+    
+#texto_blog
+{
+    border:solid 1px #232b2b;
+    }
